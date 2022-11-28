@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icarus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="nav__lista">
+                <h2 class="nav__lista__pr">Productos</h2>
+                <li class="nav__productos__lista"><a href="./pages/pcsarmadas.html" class="lista__link">Pc Armadas</a></li>
+                <li class="nav__productos__lista"> <a href="./pages/componentes.html" class="lista__link">Componentes Pc</a></li>
+                <li class="nav__productos__lista"><a href="./pages/monitores.html" class="lista__link">Monitores</a></li>
+                <li class="nav__productos__lista"><a href="./pages/mouses.html" class="lista__link">Mouses</a></li>
+                <li class="nav__productos__lista"><a href="./pages/teclados.html" class="lista__link">Teclados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="presentacion">
+    
+        <h1 class="presentacion__icarus">Icarus</h1>
+        <h3 class="presentacion__slogan">"Caídos del cielo"</h3>
+        <img src="./assets/img/logo.png" class="presentacion__logo">
+    
+    </section>
+    
+    
+    <article class="article">
+        <h2 class="article__destacados">Productos destacados</h2>
+        
+        <br>
+       
+        
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            
+            <div class="carousel-indicators">
+              
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            
+            </div>
+            
+            <div class="carousel-inner">
+              
+                <div class="carousel-item active">
+                
+                <img src="./assets/img/imagen monitor.png" class="imagen__slider">
+                
+                <div class="carousel-caption d-none d-md-block">
+                  
+                    <h5>Monitor Gamer Samsung LF24T350FHLCZB 24”</h5>
+                  
+                    <p class="descripcion__descuento">15%OFF</p> <p class="descripcion__precio">$49.999</p>
+                
+                </div>
+              
+            </div>
+               
+              <div class="carousel-item">
+                
+                <img src="./assets/img/mouse-gamer-logitech-g203-lightsync-usb.png" class="imagen__slider">
+                
+                <div class="carousel-caption d-none d-md-block">
+        
+                    <h5>Mouse Logitech G203 Gaming Lightsync Black</h5>
+                    <p class="descripcion__descuento">30%OFF</p><p class="descripcion__precio">$4.199</p>
+        
+                </div>
+        
+            </div>
+        
+              <div class="carousel-item">
+                <img src="./assets/img/PRIME-H510M-E-7.png" class="imagen__slider">
+        
+                <div class="carousel-caption d-none d-md-block">
+        
+                    <h5>Motherboard Asus Prime H510M-E 1200 11A GEN DDR4</h5>
+                    <p class="descripcion__descuento">15%OFF</p> <p class="descripcion__precio">$49.999</p>
+        
+                </div>
+        
+            </div>
+        
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+        
+            </button>
+        
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+        
+            </button>
+        
+        </div>
+      <!--  
+        <div class="slider">
+           
+            <img src="./assets/img/imagen monitor.png" class="imagen__slider" >
+            <h4 class="producto__slider">Monitor Gamer Samsung LF24T350FHLCZB 24”</h4>
+            <p class="descripcion__descuento">15%OFF</p> <p class="descripcion__precio">$49.999</p>
+        
+        </div>
+
+
+      <div class="slider">
+           
+            <img src="./assets/img/mouse-gamer-logitech-g203-lightsync-usb.png" class="imagen__slider">
+            <h4 class="producto__slider" >Mouse Logitech G203 Gaming Lightsync Black</h4>
+            <p class="descripcion__descuento">30%OFF</p><p class="descripcion__precio">$4.199</p>
+        
+        </div>
+        
+       
+       
+        <div class="slider">
+        
+            <img src="./assets/img/PRIME-H510M-E-7.png" class="imagen__slider">
+            <h4 class="producto__slider" >Motherboard Asus Prime H510M-E 1200 11A GEN DDR4</h4>
+            <p class="descripcion__descuento">10%OFF</p> <p class="descripcion__precio">$17.999</p>
+        
+        </div>
+   
+    </article>
+    -->
+    <div class="part3">
+        <ul class="listaMetodos"><h3 class="listaMetodos__title">Métodos de pago</h3>
+            <li class="listaMetodos__opt">Visa</li>
+            <li class="listaMetodos__opt">RapiPago</li>
+            <li class="listaMetodos__opt">MasterCard</li>
+            <li class="listaMetodos__opt">Mercado Pago</li>
+            <li class="listaMetodos__opt">Pago Fácil</li>
+            <li class="listaMetodos__opt">Abonar en la sucursal</li>
+        </ul>
+        
+        <ul class="listaMetodos"><h3 class="listaMetodos__title">Métodos de envío</h3>
+            <li class="listaMetodos__opt">Correo Argentino (envío gratis)</li>
+            <li class="listaMetodos__opt">Andreani</li>
+            <li class="listaMetodos__opt">Oca</li>
+            <li class="listaMetodos__opt">Retirar en sucursal</li>
+        </ul>
+        
+    </div>
+    
+    <footer class="footerPrin">
+        <p class="footer__p">Con 10 años de experiencia contamos con las mejores reseñas</p>
+        <form class="formPrin">
+            <h3 class="footer__preg">Haznos preguntas o deja algun comentario para mejorar la calidad de la pagina</h3>
+            <label for="floatingInputValue">Correo electrónico:</label>
+            
+            <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+            <br>
+            <br>
+            
+            <textarea class="form-control" placeholder="Deja tus comentarios aqui" id="floatingTextarea"></textarea>
+            
+            <br>
+            <br>
+
+            <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Enviar</a>
+        </form>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,627 @@
+* {
+
+    font-family: 'Raleway', sans-serif;
+   
+    margin: 0px;
+    padding: 0;
+}
+
+/*======COMIENZO HEADER=======*/
+
+
+.header {
+
+    background-color: #000000;
+
+    position: sticky;
+    top: 0px;
+    border-bottom: solid #f0f8ff 1px;
+    
+}
+.nav__lista{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+
+}
+
+.nav__lista__pr {
+   
+    display: inline-block;
+    color: #f0f8ff;
+    
+    
+    margin-top: auto;
+    margin-right: 400PX;
+    margin-bottom: auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+   
+}
+
+.nav__productos__lista {
+ 
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:30px ;
+    margin-bottom: 10px;
+    
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+    border-bottom : solid 2px #d6a357;
+
+    transition: transform 0.15s ease-in;
+
+}
+
+.nav__productos__lista:hover {
+
+    transform: scale(1.1);
+    
+}
+
+.lista__link {
+
+    
+    text-decoration: none;
+    color: #f0f8ff;
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+    .nav__lista__pr{
+    
+        margin-right: 150px;
+    
+    }    
+    
+    
+} 
+
+@media screen and (min-width: 560px) and (max-width: 900px) {
+
+    .nav__lista{
+
+        justify-content: space-evenly;
+        gap: 5px;
+
+    }    
+    
+    .nav__lista__pr{
+    
+        margin-right: 10px;
+    
+    }  
+
+    .nav__productos__lista{
+        
+        margin-left: 0px;
+
+    }
+
+    
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+
+    .nav__lista__pr{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }  
+
+}
+
+
+/*======FIN DEL HEADER=======*/
+
+/*======COMIENZO SECTION=======*/
+
+.presentacion {
+    
+    display: flex;
+
+    justify-content :space-around;
+
+    background-image: url("../assets/img/fondo-icarus.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentacion__icarus {
+    
+    
+    text-align: center;
+    color: #f0f8ff;
+    font-size: 70px;
+
+}
+
+.presentacion__slogan {
+
+   
+    
+    text-align: right;
+    color: #f0f8ff;
+    font-size: 23px;
+    padding-top: 200px;
+
+    width: 200px;
+    
+}
+
+.presentacion__logo {
+
+    
+    
+    height: 300px;
+    width: 300px;
+    
+    margin-left:400px;
+    margin-right:auto;
+   
+} 
+
+
+
+@media screen and (min-width: 560px) and (max-width: 900px){
+
+    .presentacion__logo {
+
+        height: 250px;
+        width: 250px;
+
+        margin-left: 50px;
+
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+    .presentacion__icarus{
+
+        width: 60px;
+
+    }
+    
+    .presentacion__logo {
+
+        height: 200px;
+        width: 200px;
+
+        margin-left: 5px;
+
+    }
+
+}
+
+/*======FIN SECTION=======*/
+
+/*======COMIENZO SLIDER======*/
+
+
+
+ .article{
+
+    background-color: #131010;
+    border-bottom: solid #ffffff 1px;
+
+    padding-bottom: 10px;
+
+}
+
+
+.article__destacados{
+    color: #dcdcdc;
+    display: inline-block;
+    
+    font-size: 30px;
+
+    margin-left: 500px;
+    margin-top: 20px ;
+
+    padding: 5px;
+
+    border: solid #ffa500;
+    border-radius: 5px;
+    
+}
+
+
+
+.imagen__slider {
+    display: flex;
+    justify-items: center;
+    width: 600px;
+    margin-right: 0px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    
+    
+}
+
+.producto__slider {
+    color: #dcdcdc;
+    font-size: 20px;
+
+}
+
+.descripcion__descuento {
+
+    color:#ff0000;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.descripcion__precio{
+
+    color: #008000;
+    font-size:25px;
+    margin-bottom: 0px;
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+   .article__destacados {
+
+    margin-left: 200px;
+
+   }  
+    
+   .imagen__slider {
+
+    margin-left: 250px;
+
+   }
+    
+} 
+
+@media screen and (min-width: 560px) and (max-width: 900px){
+
+    .article__destacados {
+
+        margin-left: 100px;
+
+    }
+
+    .imagen__slider {
+
+        margin-left: 100px;
+    
+    }
+        
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+    .article__destacados {
+
+        margin-left: 50px;
+
+    }
+
+    .imagen__slider {
+
+        width:390px ;
+
+        margin-left: 5px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
+/*======FIN SLIDER======*/
+
+/*======COMIENZO ARTICLE======*/
+
+.part3 {
+
+    background-color: #131010;
+}
+
+
+.listaMetodos {
+    
+    color:#ffa500;
+    display: inline-block;
+    
+    background-color: #131010;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+
+    padding: 20px;
+
+} 
+
+.listaMetodos__title {
+
+    font-size: 30px;
+
+    margin-bottom: 35px;
+
+}
+
+.listaMetodos__opt {
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+    .listaMetodos{
+
+        margin-left: 40px;
+        align-items: center;
+
+    }
+
+}
+
+/*======FIN ARTICLE======*/
+
+/*======COMIENZO FOOTER PRINCIPAL======*/
+
+.footerPrin {
+
+    background-color: #d6a357;
+
+}
+
+.footer__p {
+
+    color: #000000;
+    font-size: 40px;
+    padding: 20px;
+    font-style:italic;
+
+}
+
+.footer__preg{
+
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.formPrin {
+
+    display: inline-block;
+
+    border: solid #000000;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+   .formPrin {
+
+    width: 300px;
+
+   }
+
+   .footer__preg {
+
+    width:250px ;
+    font-size: 20px;
+    
+
+   }
+
+}
+
+/*======FIN FOOTER PRINCIPAL======*/
+
+/*======EDICION PAGES======*/
+
+/*======COMIENZO HEADER PAGES======*/
+
+.nav__productos__lista__inicio{
+
+    font-size: 30px;
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:30px ;
+    margin-bottom: 10px;
+    
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+    border-bottom : solid 2px #d6a357;
+
+    transition:  transform 0.15s ease-in;
+
+}
+
+.nav__productos__lista__inicio:hover {
+
+    transform: scale(1.1);
+
+}
+
+.header {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav__lista__productos__pages {
+
+    display: inline-block;
+    color: #f0f8ff;
+    
+    
+    margin-top: auto;
+    margin-right:130px ;
+    margin-left: 330px;
+    margin-bottom: auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.logo__pages {
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+
+/*======FIN HEADER PAGES======*/
+
+/*======COMIENZO PRODUCTOS======*/
+
+.divPages{
+
+    background-color: #131010;
+    text-align: center;
+    
+
+}
+
+.titlePages {
+
+    display: inline-block;
+    
+    color: #f0f8ff;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    
+    border: solid #ffa500;
+    border-radius: 5px;
+
+    padding: 5px;
+
+}
+
+.flex__productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    
+    display: inline-block;
+    
+     
+    border:  inset #ffa500;
+    border-radius: 5px;
+
+    width: 350px;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    transition: transform 0.15s ease-in; 
+
+}
+
+
+.card:hover {
+
+    transform: scale(1.08);
+    
+}
+
+.imgPages {
+
+    width: 300px;
+
+}
+
+
+.descripcion__pages {
+    
+    color: #f0f8ff;
+   
+}
+
+/*======FIN PRODUCTOS======*/
+
+/*======COMIENZO FOOTER PAGES======*/
+
+.footerPages {
+
+    background-color: #d6a357;
+
+}
+
+.formPages {
+
+    display: inline-block;
+    border: solid #000000 2px;
+
+    padding: 10px;
+
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+}
+
+.footer__p-title {
+
+    display: inline-block;
+    
+    font-size: 30px;
+
+    margin: 20px;
+}
+
+.footer__pages-p {
+
+    width: 400px;
+    
+    font-size: 25px;
+    font-style: italic;
+    
+    padding-bottom: 5px;
+
+}
+
+/*======FIN FOOTER PAGES======*/
+
+/*======FIN EDICION PAGES======*/
+
