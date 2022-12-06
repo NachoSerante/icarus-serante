@@ -18,6 +18,14 @@
     border-bottom: solid #f0f8ff 1px;
     
 }
+.nav__lista{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+
+}
 
 .nav__lista__pr {
    
@@ -68,6 +76,54 @@
 
 }
 
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+    .nav__lista__pr{
+    
+        margin-right: 150px;
+    
+    }    
+    
+    
+} 
+
+@media screen and (min-width: 560px) and (max-width: 900px) {
+
+    .nav__lista{
+
+        justify-content: space-evenly;
+        gap: 5px;
+
+    }    
+    
+    .nav__lista__pr{
+    
+        margin-right: 10px;
+    
+    }  
+
+    .nav__productos__lista{
+        
+        margin-left: 0px;
+
+    }
+
+    
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+
+    .nav__lista__pr{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }  
+
+}
+
 
 /*======FIN DEL HEADER=======*/
 
@@ -77,9 +133,9 @@
     
     display: flex;
 
-    justify-content: space-around;
+    justify-content :space-around;
 
-    background-image: url(../assets/img/fondo-icarus.jpg);
+    background-image: url("../assets/img/fondo-icarus.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,16 +171,52 @@
     height: 300px;
     width: 300px;
     
-    margin-left:500px;
-    margin-right: 100px;
+    margin-left:400px;
+    margin-right:auto;
    
 } 
+
+
+
+@media screen and (min-width: 560px) and (max-width: 900px){
+
+    .presentacion__logo {
+
+        height: 250px;
+        width: 250px;
+
+        margin-left: 50px;
+
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+    .presentacion__icarus{
+
+        width: 60px;
+
+    }
+    
+    .presentacion__logo {
+
+        height: 200px;
+        width: 200px;
+
+        margin-left: 5px;
+
+    }
+
+}
 
 /*======FIN SECTION=======*/
 
 /*======COMIENZO SLIDER======*/
 
-.article{
+
+
+ .article{
 
     background-color: #131010;
     border-bottom: solid #ffffff 1px;
@@ -132,6 +224,7 @@
     padding-bottom: 10px;
 
 }
+
 
 .article__destacados{
     color: #dcdcdc;
@@ -152,13 +245,14 @@
 
 
 .imagen__slider {
-    display: inline-block;
-    width: 400px;
+    display: flex;
+    justify-items: center;
+    width: 600px;
+    margin-right: 0px;
+    margin-left: 400px;
+    margin-bottom: 200px;
     
-    padding: 0px;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
+    
 }
 
 .producto__slider {
@@ -171,14 +265,69 @@
 
     color:#ff0000;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .descripcion__precio{
 
     color: #008000;
     font-size:25px;
+    margin-bottom: 0px;
 
 }
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+   .article__destacados {
+
+    margin-left: 200px;
+
+   }  
+    
+   .imagen__slider {
+
+    margin-left: 250px;
+
+   }
+    
+} 
+
+@media screen and (min-width: 560px) and (max-width: 900px){
+
+    .article__destacados {
+
+        margin-left: 100px;
+
+    }
+
+    .imagen__slider {
+
+        margin-left: 100px;
+    
+    }
+        
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+    .article__destacados {
+
+        margin-left: 50px;
+
+    }
+
+    .imagen__slider {
+
+        width:390px ;
+
+        margin-left: 5px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
 /*======FIN SLIDER======*/
 
 /*======COMIENZO ARTICLE======*/
@@ -217,6 +366,17 @@
     font-size: 20px;
 
     margin-bottom: 20px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+    .listaMetodos{
+
+        margin-left: 40px;
+        align-items: center;
+
+    }
 
 }
 
@@ -259,6 +419,24 @@
 
 }
 
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+   .formPrin {
+
+    width: 300px;
+
+   }
+
+   .footer__preg {
+
+    width:250px ;
+    font-size: 20px;
+    
+
+   }
+
+}
+
 /*======FIN FOOTER PRINCIPAL======*/
 
 /*======EDICION PAGES======*/
@@ -273,7 +451,6 @@
     margin-top: 10px;
     margin-left:30px ;
     margin-bottom: 10px;
-    
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 0px;
@@ -281,7 +458,7 @@
     
     border-bottom : solid 2px #d6a357;
 
-    /*transition:  transform 0.15s ease-in;*/
+    transition:  transform 0.15s ease-in;
 
 }
 
@@ -306,8 +483,8 @@
     
     
     margin-top: auto;
-    margin-right:130px ;
-    margin-left: 330px;
+    margin-right:150px ;
+    margin-left: 200px;
     margin-bottom: auto;
 
     padding-left: 10px;
@@ -320,7 +497,42 @@
 .logo__pages {
 
     display: inline-block;
-    width: 30px;
+    width: 40px;
+    height: 40px;
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+
+    .nav__lista__productos__pages {
+
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+    .nav__lista {
+
+        justify-content: space-evenly;
+        column-gap: 0px;
+        justify-content: center;
+        padding-left: 0px;
+
+    }
+
+    
+
+    .nav__lista__productos__pages {
+
+        font-size: 0px;
+
+    }
+
 
 }
 
@@ -365,6 +577,8 @@
 .card {
     
     display: inline-block;
+    background-color: transparent;
+    position:static;    
      
     border:  inset #ffa500;
     border-radius: 5px;
@@ -375,7 +589,7 @@
 
     margin: 20px;
 
-    /*transition: transform 0.15s ease-in; */
+    transition: transform 0.15s ease-in; 
 
 }
 
@@ -438,6 +652,25 @@
     font-style: italic;
     
     padding-bottom: 5px;
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+    .formPages {
+
+        width: 300px;
+
+        margin-left: 30px;
+
+    }
+
+    .footer__pages-p {
+
+        width: 280px;
+
+    }
 
 }
 
