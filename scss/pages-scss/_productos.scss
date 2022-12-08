@@ -1,0 +1,72 @@
+.divPages{
+
+    background-color: #131010;
+    text-align: center;
+    
+
+}
+
+.titlePages {
+
+    display: inline-block;
+    
+    color: #f0f8ff;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    
+    border: solid #ffa500;
+    border-radius: 5px;
+
+    padding: 5px;
+
+}
+
+.flex__productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    
+    display: inline-block;
+    background-color: transparent;
+    position:static;    
+     
+    border:  inset #ffa500;
+    border-radius: 5px;
+
+    width: 350px;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    transition: transform 0.15s ease-in; 
+
+}
+
+
+.card:hover {
+
+    transform: scale(1.08);
+    
+}
+
+.imgPages {
+
+    width: 300px;
+
+}
+
+
+.descripcion__pages {
+    
+    color: #f0f8ff;
+   
+}

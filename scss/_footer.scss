@@ -1,0 +1,52 @@
+.footerPrin {
+
+    background-color: #d6a357;
+
+}
+
+.footer__p {
+
+    color: #000000;
+    font-size: 40px;
+    padding: 20px;
+    font-style:italic;
+
+}
+
+.footer__preg{
+
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.formPrin {
+
+    display: inline-block;
+
+    border: solid #000000;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+   .formPrin {
+
+    width: 300px;
+
+   }
+
+   .footer__preg {
+
+    width:250px ;
+    font-size: 20px;
+    
+
+   }
+
+}

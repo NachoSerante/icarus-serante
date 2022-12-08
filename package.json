@@ -1,0 +1,20 @@
+{
+  "name": "icarus-serante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"sass scss:styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoSerante/serante-icarus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoSerante/serante-icarus/issues"
+  },
+  "homepage": "https://github.com/NachoSerante/serante-icarus#readme"
+}

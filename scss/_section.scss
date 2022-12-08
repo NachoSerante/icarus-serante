@@ -1,0 +1,80 @@
+.presentacion {
+    
+    display: flex;
+
+    justify-content :space-around;
+
+    background-image: url("../assets/img/fondo-icarus.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentacion__icarus {
+    
+    
+    text-align: center;
+    color: #f0f8ff;
+    font-size: 70px;
+
+}
+
+.presentacion__slogan {
+
+   
+    
+    text-align: right;
+    color: #f0f8ff;
+    font-size: 23px;
+    padding-top: 200px;
+
+    width: 200px;
+    
+}
+
+.presentacion__logo {
+
+    
+    
+    height: 300px;
+    width: 300px;
+    
+    margin-left:400px;
+    margin-right:auto;
+   
+} 
+
+
+
+@media screen and (min-width: 560px) and (max-width: 900px){
+
+    .presentacion__logo {
+
+        height: 250px;
+        width: 250px;
+
+        margin-left: 50px;
+
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px){
+
+    .presentacion__icarus{
+
+        width: 60px;
+
+    }
+    
+    .presentacion__logo {
+
+        height: 200px;
+        width: 200px;
+
+        margin-left: 5px;
+
+    }
+
+}

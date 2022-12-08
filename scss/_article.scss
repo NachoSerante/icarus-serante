@@ -1,0 +1,47 @@
+.part3 {
+
+    background-color: #131010;
+}
+
+
+.listaMetodos {
+    
+    color:#ffa500;
+    display: inline-block;
+    
+    background-color: #131010;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+
+    padding: 20px;
+
+} 
+
+.listaMetodos__title {
+
+    font-size: 30px;
+
+    margin-bottom: 35px;
+
+}
+
+.listaMetodos__opt {
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 560px) {
+
+    .listaMetodos{
+
+        margin-left: 40px;
+        align-items: center;
+
+    }
+
+}

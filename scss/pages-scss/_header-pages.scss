@@ -1,0 +1,58 @@
+.nav__productos__lista__inicio{
+
+    font-size: 30px;
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:30px ;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+    border-bottom : solid 2px #d6a357;
+
+    transition:  transform 0.15s ease-in;
+
+}
+
+.nav__productos__lista__inicio:hover {
+
+    transform: scale(1.1);
+
+}
+
+.header {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav__lista__productos__pages {
+
+    display: inline-block;
+    color: #f0f8ff;
+    
+    
+    margin-top: auto;
+    margin-right:150px ;
+    margin-left: 200px;
+    margin-bottom: auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.logo__pages {
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
