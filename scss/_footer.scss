@@ -33,6 +33,12 @@
 
 }
 
+.boton-a-mapa{
+
+    @extend .btn-secondary;
+
+}
+
 @media screen and (min-width: 300px) and (max-width: 560px){
 
    .formPrin {
@@ -50,3 +56,4 @@
    }
 
 }
+

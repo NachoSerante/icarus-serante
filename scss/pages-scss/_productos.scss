@@ -32,7 +32,7 @@
 
 }
 
-.card {
+@mixin .card {
     
     display: inline-block;
     background-color: transparent;
@@ -50,6 +50,21 @@
     transition: transform 0.15s ease-in; 
 
 }
+.card-1{
+
+   @include card;
+
+}
+
+.card-2 {
+
+    @include card;
+
+}
+.card-3{@include card;}
+.card-4{@include card;}
+.card-5{@include card;}
+.card-6{@include card;}
 
 
 .card:hover {
